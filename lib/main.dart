@@ -1,6 +1,6 @@
 import 'package:all_bluetooth/all_bluetooth.dart';
 import 'package:flutter/material.dart';
-
+import 'package:flutter_bluetooth_chat/screens/accellerometer.dart';
 import 'screens/chat_screen.dart';
 import 'screens/home_screen.dart';
 
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
           builder: (context, snapshot) {
             final result = snapshot.data;
             if (result?.state == true) {
-              return const ChatScreen();
+              return const Accellerometer();
             }
             print(result);
             return const HomeScreen();

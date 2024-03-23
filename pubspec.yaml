@@ -16,6 +16,7 @@ dependencies:
   all_bluetooth: ^0.1.0
   permission_handler: ^11.2.0
   flutter_chat_bubble: ^2.0.2
+  sensors_plus: ^4.0.2
 
 dev_dependencies:
   flutter_test:
